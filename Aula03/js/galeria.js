@@ -17,7 +17,7 @@ for ( var i = 1 ; i <=5 ; i++){
 //     fullsize.innerHTML="<img src=img/foto2.jpg>";
 // }
 
-//jeito correto de fazer 
+//Jeito correto de fazer a função
 /*
 A função abrir é chamada todas s vezes que uma foto da miniatura é clicada.
 Quando a miniatura é clicada, ela dispara um evento chamando onclick e chama a função abrir passando por parâmetro (argumento) um número, que é a posição da foto. Assim, a função abrir recebe o número passado e armazena na variável p. Esta variável é usada para formar o nome da foto que será carregada na div fullsize como vemos abaixo.
