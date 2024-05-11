@@ -14,11 +14,11 @@
 #painel{
     width: 100vw;   
     height: 70vh;
-    
-   
+
 }
 td{
     width: 30px;
     height: 21px;
+    cursor: pointer;
 }
 
