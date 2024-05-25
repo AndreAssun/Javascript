@@ -1,0 +1,56 @@
+.divAzul{
+    width: 200px;
+    height: 200px;
+    background-color: #006;
+    
+}
+
+#fotos{
+    width: 60%;
+    margin:0 auto;
+    padding: 10px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+#fotos img{
+width: 28%;
+height: 700px;
+margin: 10px;
+
+}
+
+#shadow{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shadow img{
+    width: 50%;
+    
+    
+}
+
+#close{
+    color: #fff;
+    font-size: 100pt;
+    margin: auto;
+    padding: 80px;
+    background-color: rgb(0, 132, 255);
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    
+}

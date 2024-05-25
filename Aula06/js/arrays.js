@@ -35,7 +35,7 @@ function array3(){
 
 function array4() {
     let n1 = [1,6,17,2,0];
-    let n2 = [65,0,7,20,49,1];
+    let n2 = [65,0,17,20,49,1];
 
     for (let p = 0 ; p < n1.length ; p++){
         for(let s = 0 ; s < n2.length ; s++){
