@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(3, 37, 65);
+    color: white;
+    
+}
+
+#estrutura .cartaz img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#estrutura .cartaz{
+    width: 17%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 15px;
+    
+    
+}
+
+#estrutura{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 100px auto;
+}
+#estrutura .cartaz .votos{
+    background-color: rgb(6, 45, 6);
+    border: 2px solid limegreen;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    position: relative;
+    left: 10px;
+    top: -23px;
+
+}
+
+h2{
+    font-family: arial;
+    font-size: 12pt;
+    margin-left: 12px;
+}
+
+#estrutura .lancamento{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9pt;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
