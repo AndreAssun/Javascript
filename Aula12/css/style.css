@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav{
+
+    background-color: #1861cf;
+    position: absolute;
+    width: 100%;
+    top: -100px;
+    transition: ease-out 0.5s;
+    
+}
+
+#nav nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav nav ul li{
+    margin-right: 20px;
+}
+
+#nav nav ul li a{
+    margin-right: 20px;
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#buscar{
+    width: 500px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 0px;
+    outline: none;
+}
+
+form button{
+    padding: 5px;
+    border: 0px;
+    background-color: rgb(230, 113, 45);
+    cursor: pointer;
+    color: white;
+    width: 100px;
+}
+
+form button:hover{
+    background-color: rgb(226, 96, 20);
+   
+}
+
+#fechar{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu{
+    text-decoration: none;
+    color: silver;
+    font-size: 20pt;
+    font-family: arial;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: ease 0.5s;
+}
+
+#menu:hover{
+    margin-left: 15pt;
+    color:  rgb(60, 154, 231);
+   
+}
+
+#listar, #resultador, #inserir{
+    width: 80vw;
+    margin: 70px auto;
+    border: 1px solid silver;
+}
+
+#listarlivros{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa{
+    width: 30%;
+    margin:10%;
+}
+
+
+.caixa img{
+    width: 250px;
+    height: 400px;
+
+}
+
+h4{
+    font-family: 'Arial','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h5{
+    font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    
+}
+
+p{
+    font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
+    font-size: 9pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(90, 90, 90);
+    
+}
+
+.pes{
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+#inserir form{
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#inserir input[type="text"], 
+#inserir select, 
+#inserir textarea{
+    width: 95%;
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    outline: none;
+    
+
+}
+
+
+#txtpreco{
+    width: 20% !important;
+}
+
+#txtgenero{
+    width: 40% !important;
+}
+
+#txtsinopse{
+    height: 200px;
+    resize: none;
+}
+
+#inserir h3{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
